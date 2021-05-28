@@ -1,0 +1,13 @@
+.nav{
+    background:#bac3da;
+    margin: 0;
+    padding: 0;
+}
+.nav-text{
+    display: flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: "Didot";
+    display: inline-block;
+    padding: 3% 10px;
+}

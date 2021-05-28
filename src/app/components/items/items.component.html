@@ -1,0 +1,12 @@
+<div>
+    <app-total mensaje="Total por pagar: " [total]="total">
+    </app-total>
+
+    <!-- Utilizamos la directiva ngFor para mostrar cada elemento 
+        que está en la variable items -->
+    <app-item *ngFor="let item of items" 
+        [item]="item"
+        (deleteItem)="deleteItem($event)"
+        (toggleItem)="toggleItem($event)">
+    </app-item>
+</div>
